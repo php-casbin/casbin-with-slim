@@ -1,0 +1,3 @@
+p, root, /, GET
+p, root, /users, GET
+p, root, /users/:id, GET

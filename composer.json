@@ -1,0 +1,52 @@
+{
+    "name": "casbin/casbin-with-slim",
+    "description": "Casbin skeleton application with Slim Framework",
+    "keywords": [
+        "casbin",
+        "microframework",
+        "rest",
+        "router",
+        "psr7",
+        "permission",
+        "roles"
+    ],
+    "type": "project",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "TechLee",
+            "email": "techlee@qq.com",
+            "homepage": "https://github.com/techoner"
+        }
+    ],
+    "require": {
+        "casbin/casbin": "^1.0",
+        "monolog/monolog": "^2.0",
+        "php-di/php-di": "^6.0",
+        "slim/psr7": "^0.5.0",
+        "slim/slim": "^4.2",
+        "tuupola/slim-basic-auth": "^3.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5",
+        "php-coveralls/php-coveralls": "^2.1"
+    },
+    "config": {
+        "process-timeout": 0,
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "start": "php -S localhost:8888 -t public",
+        "test": "phpunit"
+    }
+}
