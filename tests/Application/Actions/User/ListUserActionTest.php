@@ -8,9 +8,12 @@ use App\Domain\User\UserRepository;
 use App\Domain\User\User;
 use DI\Container;
 use Tests\TestCase;
+use Prophecy\PhpUnit\ProphecyTrait;
 
 class ListUserActionTest extends TestCase
 {
+    use ProphecyTrait;
+
     public function testAction()
     {
         $app = $this->getAppInstance();

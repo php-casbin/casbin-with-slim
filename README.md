@@ -1,6 +1,6 @@
 # Casbin skeleton application with Slim Framework 4
 
-[![Build Status](https://travis-ci.org/php-casbin/casbin-with-slim.svg?branch=master)](https://travis-ci.org/php-casbin/casbin-with-slim)
+[![PHPUnit](https://github.com/php-casbin/casbin-with-slim/actions/workflows/phpunit.yml/badge.svg)](https://github.com/php-casbin/casbin-with-slim/actions/workflows/phpunit.yml)
 [![Coverage Status](https://coveralls.io/repos/github/php-casbin/casbin-with-slim/badge.svg)](https://coveralls.io/github/php-casbin/casbin-with-slim)
 [![Latest Stable Version](https://poser.pugx.org/casbin/casbin-with-slim/v/stable)](https://packagist.org/packages/casbin/casbin-with-slim)
 [![Total Downloads](https://poser.pugx.org/casbin/casbin-with-slim/downloads)](https://packagist.org/packages/casbin/casbin-with-slim)

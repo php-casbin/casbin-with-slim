@@ -12,9 +12,12 @@ use App\Domain\User\UserRepository;
 use DI\Container;
 use Slim\Middleware\ErrorMiddleware;
 use Tests\TestCase;
+use Prophecy\PhpUnit\ProphecyTrait;
 
 class ViewUserActionTest extends TestCase
 {
+    use ProphecyTrait;
+    
     public function testAction()
     {
         $app = $this->getAppInstance();
