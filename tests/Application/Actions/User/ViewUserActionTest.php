@@ -5,7 +5,6 @@ namespace Tests\Application\Actions\User;
 
 use App\Actions\ActionError;
 use App\Actions\ActionPayload;
-use App\Handlers\HttpErrorHandler;
 use App\Domain\User\User;
 use App\Domain\User\UserNotFoundException;
 use App\Domain\User\UserRepository;

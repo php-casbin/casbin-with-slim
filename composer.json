@@ -15,23 +15,23 @@
     "authors": [
         {
             "name": "TechLee",
-            "email": "techlee@qq.com",
-            "homepage": "https://github.com/techoner"
+            "email": "leeqvip@gmail.com",
+            "homepage": "https://github.com/leeqvip"
         }
     ],
     "require": {
-        "casbin/casbin": "^4.0",
-        "monolog/monolog": "^2.9",
-        "php-di/php-di": "^6.4",
-        "slim/psr7": "^1.6",
-        "slim/slim": "^4.12",
-        "tuupola/slim-basic-auth": "^3.2"
+        "php": "^8.0",
+        "casbin/casbin": "^4.4",
+        "jimtools/basic-auth": "^1.0",
+        "monolog/monolog": "^2.11",
+        "php-di/php-di": "^7.1",
+        "slim/psr7": "^1.8",
+        "slim/slim": "^4.15"
     },
     "require-dev": {
-        "php-coveralls/php-coveralls": "^2.1",
-        "phpspec/prophecy": "^1.19",
-        "phpspec/prophecy-phpunit": "^2.3",
-        "phpunit/phpunit": "^9.0"
+        "php-coveralls/php-coveralls": "^2.9",
+        "phpspec/prophecy-phpunit": "^2.5",
+        "phpunit/phpunit": "^9.6"
     },
     "config": {
         "process-timeout": 0,
@@ -49,6 +49,6 @@
     },
     "scripts": {
         "start": "php -S localhost:8888 -t public",
-        "test": "phpunit"
+        "test": "vendor/bin/phpunit"
     }
 }
